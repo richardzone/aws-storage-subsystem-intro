@@ -1,0 +1,28 @@
+{
+    // Folders to use for output
+    "output": null,
+
+    // Generator to use for building
+    "generator": "site",
+
+    // Book title and description (defaults are extracted from the README)
+    "title": null,
+    "description": null,
+
+    // For ebook format, the extension to use for generation (default is detected from output extension)
+    // "epub", "pdf", "mobi"
+    "extension": "epub",
+
+    // Plugins list, can contain "-name" for removing default plugins
+    "plugins": [],
+
+    // Global configuration for plugins
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
+        }
+    },
+
+}
