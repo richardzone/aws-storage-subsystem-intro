@@ -1,6 +1,6 @@
 {
   "name": "storage-subsystem-intro",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "AWS Storage Subsystem Intro",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,11 @@
     "server": "gitbook serve ./source --output=./public",
     "start": "npm run server"
   },
+  "repository" : {
+    "url" : "https://github.com/richardzone/aws-storage-subsystem-intro.git"
+  },
   "author": "Ziyi LIU(i@richard.zone)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "gitbook": "^1.0.0"
   }

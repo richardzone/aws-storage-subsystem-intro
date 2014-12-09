@@ -1,39 +1,29 @@
-# The Guide for New Media Guide
+# AWS Storage Subsystem Intro
+
+This quick guide book is created for one of the DevOps sessions we held at [ThoughtWorks](http://www.thoughtworks.com/), and it makes extensive use of info from [AWS Official Site and Docs](http://aws.amazon.com/).
+
+Note that this guide does not cover Amazon S3 which we'll talk about in another session.
 
 We're using [GitBook](https://github.com/GitbookIO/gitbook) to generate our guide.
 
+## Disclaimer
 
-## Install it the hard way
+We're neither associated with nor officially endorsed by Amazon Web Services, Inc. All rights reserved by their respective copyright owners.
 
-Here's a step by step guide for how to use it.
+## Usage
 
-- Node environment
-- Install GitBook, you can refer to its github page, or just run  
-  - `npm install` for this folder only
-- Run `npm run build` in this repo's root folder to generate the gitbook
-- Run `npm run server` in this repo's root folder to host the gitbook (default http://localhost:3000, your can set `PORT=5000` to change)
-- Run `npm start` for quick start
+You should have [node.js](http://nodejs.org/) environment in order to build it.
 
-- or Go to /public, you have several choices:
-  - `open index.html` this is very straight forward
-  - `python -m SimpleHTTPServer`, then go ``http://localhost:8000` for a friendly URL and search function.
-  - `php -S localhost:8000`, then go `http://localhost:8000`. this is the same as above.
-
-## Install it the stupid way
-
-- `npm i`
-- `npm start`
-- DONE
-
-## Other informations
-> For some reasons:
-  1. each time when we complete the edit, we need to rebuild it again
-  2. the server has caches
-
-- I add a **watch** feature to our project, after we start our server, we no need to rebuild the project agagin.
-- Be sure run `npm i` before you `npm start`.
-- Use the default server to `watch` and `livereload`.
+```shell
+npm install
+npm start
+open 'http://localhost:4000'
+```
 
 ## How to contribute
 
 Please refer to [GitBook](https://github.com/GitbookIO/gitbook).
+
+## License
+
+MIT
