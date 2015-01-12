@@ -1,5 +1,7 @@
 # AWS Storage Subsystem Intro
 
+**View it here**: [awsbook.richard.zone](http://awsbook.richard.zone)
+
 This quick guide book is created for one of the DevOps sessions we held at [ThoughtWorks](http://www.thoughtworks.com/), and it makes extensive use of info from [AWS Official Site and Docs](http://aws.amazon.com/).
 
 Note that this guide does not cover Amazon S3 which we'll talk about in another session.
